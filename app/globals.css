@@ -12,11 +12,13 @@
   --font-mono: var(--font-geist-mono);
   --color-secondary: var(--secondary);
   --color-primary: var(--primary);
+  --color-background-primary: var(--background-primary);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background:  #000000;
+    --background-primary:  #0f0f0ff4;
     --foreground:   #c1c1c1;
     --secondary: rgb(182, 55, 55);
     --primary: #868688;

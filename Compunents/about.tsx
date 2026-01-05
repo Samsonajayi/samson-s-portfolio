@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export function AboutPage() {
   return (
-    <div className="py-30 px-50 ">
+    <div className="md:py-30 xl:px-50 pt-30 px-5 md:px-20">
         <h1 className="text-center w-full p-8 text-4xl text-primary m-auto">About</h1>
-      <main className="grid grid-cols-2 gap-30 m-auto justify-center">
+      <main className="grid md:grid-cols-2 gap-5 justify-center m-auto">
         <div className=" w-full ">
         <p className="leading-8 text-xl pt-20">
             Hi, <br /> I’m Ajayi Samson , a computer science Student of mountain Top University, i loves turning ideas into real-world digital solutions.  
@@ -19,14 +19,14 @@ export function AboutPage() {
           <img 
           src="/main2.jpg" 
           alt="my-image" 
-          className="w-100 h-140 shadow-2xl shadow-red-400 rounded-2xl "/>
+          className="w-100 h-140 shadow-2xl shadow-red-400 rounded-2xl m-auto"/>
         </div>
 
          <div className="w-full">
           <img 
           src="/main3.jpg" 
           alt="my-image" 
-          className="w-100 h-130  shadow-2xl shadow-red-400 rounded-2xl cursor-pointer"/>
+          className="w-100 h-130  shadow-2xl shadow-red-400 rounded-2xl m-auto"/>
         </div>
 
          <div className=" space-y-7 w-full ">

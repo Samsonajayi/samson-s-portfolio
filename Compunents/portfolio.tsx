@@ -33,9 +33,9 @@ const portfolio = [
 ]
 export function PortfolioPage() {
   return (
-    <div className="pt-30 px-50">
+    <div className="md:pt-30 xl:px-50 pt-30 px-5 md:px-20">
         <h1 className="text-center w-full p-8 text-4xl text-primary m-auto">Portfolio</h1>
-        <main className="grid grid-cols-2 gap-3 ">
+        <main className="grid md:grid-cols-2 gap-3 ">
            {portfolio.map((portfolio,index)=>(
                 <Card key={index} className="border-none shadow shadow-red-400 rounded-2xl mb-10">
                     <CardContent>
