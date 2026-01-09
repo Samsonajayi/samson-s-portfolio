@@ -12,11 +12,11 @@ export function HomePage() {
         <p className="pt-7"><button className="px-4 py-2 bg-secondary rounded cursor-pointer hover:bg-red-500">Contact Me</button></p>
         </div>
 
-        <div className="w-full">
+        <div className="w-full ">
           <img 
-          src="/Image5.png" 
-          alt="my-image" 
-          className="w-100 h-100  shadow-2xl shadow-red-400 rounded-2xl"/>
+          src="/img01.jpg" 
+          alt="my-image"  
+          className="w-100 hover:animate-bounce shadow-2xl rounded-full"/>
         </div>
 
          <div className=" space-y-7 w-full md:mt-[-35%] xl:mt-auto">
