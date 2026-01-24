@@ -4,12 +4,12 @@ import { Linkedin,Instagram,Github} from "lucide-react";
 
 export function Header() {
   return (
-    <div className=" my-5">
+    <div className=" my-5 ">
     <div className="shadow-xl fixed w-full rounded-2xl bg-background-primary">
       <main className="px-7 py-3 flex">
-        <h1 className="text-3xl text-secondary font-bold">Samson Ajayi</h1>
+        <a href="/"><h1 className="text-3xl text-secondary font-bold">Samson Ajayi</h1></a>
         <span className="m-auto max-xl:hidden">
-        <a href="" className=" px-15 underline text-secondary transition duration-500 ">HOME</a>
+        <a href="/" className=" px-15 hover:underline hover:text-secondary transition duration-500 text-primary">HOME</a>
         <a href="" className=" px-15 hover:underline hover:text-secondary transition duration-500 text-primary">PORTFOLIO</a>
         <a href="" className=" px-15 hover:underline hover:text-secondary transition duration-500 text-primary">CONTACT</a>
         <a href="" className=" px-15 hover:underline hover:text-secondary transition duration-500 text-primary">ABOUT</a>

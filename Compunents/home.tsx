@@ -4,8 +4,9 @@ import Image from "next/image";
 
 export function HomePage() {
   return (
-    <div className="md:pt-30 xl:px-50 pt-30 px-5 md:px-20">
-      <main className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 m-auto justify-center">
+    <div className="pt-20">
+    <div className="md:pt-20 xl:px-50 pt-30 px-5 md:px-20 bg-background-home">
+      <main className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 m-auto justify-center pb-20">
         <div className=" space-y-7 w-full">
         <h1 className="text-5xl font-bold">Hi,<br />I'm <span className="text-secondary">Samson</span></h1>
         <span>Fullstack Developer,User Interface Designer</span>
@@ -14,9 +15,9 @@ export function HomePage() {
 
         <div className="w-full ">
           <img 
-          src="/img01.jpg" 
+          src="/test1.jpg" 
           alt="my-image"  
-          className="w-100 hover:animate-bounce shadow-2xl rounded-full"/>
+          className="w-100 shadow-2xl"/>
         </div>
 
          <div className=" space-y-7 w-full md:mt-[-35%] xl:mt-auto">
@@ -28,6 +29,7 @@ export function HomePage() {
       </main>
       
      
+    </div>
     </div>
   );
 }

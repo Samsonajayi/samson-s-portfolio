@@ -12,6 +12,7 @@
   --font-mono: var(--font-geist-mono);
   --color-secondary: var(--secondary);
   --color-primary: var(--primary);
+  --color-background-home: var(--background-home);
   --color-background-primary: var(--background-primary);
 }
 
@@ -22,6 +23,7 @@
     --foreground:   #c1c1c1;
     --secondary: rgb(182, 55, 55);
     --primary: #868688;
+    --background-home:rgb(19, 19, 19);
   }
 }
 
