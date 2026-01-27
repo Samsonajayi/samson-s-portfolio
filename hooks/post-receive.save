@@ -1,0 +1,14 @@
+#!/bin/bash
+GIT_WORK_TREE=/path/to/web/root git checkout -f
+
+
+chmod +x hooks/post-receive
+git remote add web ssh://ajayisamson.com/potfolio
+
+git push web master
+
+cd
+
+
+git init
+git remote add origin https://github.com/username/repository.git

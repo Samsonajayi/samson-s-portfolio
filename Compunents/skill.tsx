@@ -61,7 +61,7 @@ const skill= [
     },
 
     {
-        skillimg:"/whatsapp.png",
+        skillimg:"/python.png",
         skill:"Python",
         
     },
