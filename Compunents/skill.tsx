@@ -73,7 +73,7 @@ export function SkillPage() {
     return(
         <div className="mt-30">
             <h1 className="text-center w-full p-8 text-4xl text-primary m-auto">Skills</h1>
-            <main className="grid grid-cols-11 gap-5 ">
+            <main className="grid xl:grid-cols-11 max-md:grid-cols-4 md:grid-cols-6 gap-5 ">
                 {skill.map((skill,index)=>(
                 <Card key={index} className=" border-none hover:animate-bounce">
                 <CardContent>
