@@ -27,7 +27,7 @@ export function AboutPage() {
         <p className="text-xl pt-5 leading-8">Currently exploring the mobile app development feild, and i'm always open to collaborations and learning new things in the ever-evolving world of technology.
             Let’s build the future, one line of code at a time!
         </p>
-        <span className="text-primary text-xl">Hey are you looking for a designer to build <br />your brand and grow your business? <br />Your free to link up with me.</span>
+        <span className="text-primary text-xl">Hey are you looking for a designer to build <br />your brand and grow your business? <br />You are free to link up with me.</span>
         </div>
       </main>
       

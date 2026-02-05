@@ -22,7 +22,7 @@ export function HomePage() {
 
          <div className=" space-y-7 w-full md:mt-[-35%] xl:mt-auto">
           <span className="text-secondary">Expert on</span>
-        <h2 className="text-2xl font-bold">Base in Nigeria (Lagos)<br />i'm a developer and <br /> a UI/UX designer. </h2>
+        <h2 className="text-2xl font-bold">Base in Nigeria (Lagos)<br />I'm a developer and <br /> a UI/UX designer. </h2>
         <span className="text-primary">Hey are you looking for a designer to build <br />your brand and grow your business? <br />Your free to link up with me.</span>
         <a href="/Samson Ajayi CV.pdf" target="-blank"><p className="pt-7"><button className="text-secondary rounded flex gap-2 hover:underline cursor-pointer">View My CV<View/></button></p></a>
         </div>
