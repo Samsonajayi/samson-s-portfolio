@@ -28,6 +28,7 @@ const portfolio = [
 ]
 export function PortfolioPage() {
   return (
+    <section id="portfolio">
     <div className="md:pt-30 xl:px-50 pt-30 px-5 md:px-20">
         <h1 className="text-center w-full p-8 text-4xl text-primary m-auto">Portfolio</h1>
         <main className="gap-3 w-full ">
@@ -57,5 +58,6 @@ export function PortfolioPage() {
 
 
     </div>
+    </section>
   )
 }

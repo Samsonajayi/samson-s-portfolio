@@ -4,18 +4,19 @@ import Image from "next/image";
 
 export function HomePage() {
   return (
+    <section id="home">
     <div className="pt-20">
     <div className="md:pt-20 xl:px-50 pt-30 px-5 md:px-20 bg-background-home">
       <main className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 m-auto justify-center pb-20">
         <div className=" space-y-7 w-full">
         <h1 className="text-5xl font-bold">Hi,<br />I'm <span className="text-secondary">Samson</span></h1>
         <span>Fullstack Developer,User Interface Designer</span>
-        <p className="pt-7"><button className="px-4 py-2 bg-secondary rounded cursor-pointer hover:bg-red-500">Contact Me</button></p>
+        <p className="pt-7"><a href="https://linkedin.com/in/samsonajayi17" target="_blank" ><button className="px-4 py-2 bg-secondary rounded cursor-pointer hover:bg-red-500">Contact Me</button></a></p>
         </div>
 
         <div className="w-full ">
           <img 
-          src="/test1.jpg" 
+          src="/test1.jpg"  
           alt="my-image"  
           className="w-100 shadow-2xl"/>
         </div>
@@ -31,5 +32,6 @@ export function HomePage() {
      
     </div>
     </div>
+    </section>
   );
 }

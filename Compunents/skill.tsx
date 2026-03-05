@@ -71,6 +71,7 @@ const skill= [
 
 export function SkillPage() {
     return(
+        <section id="skill">
         <div className="mt-30">
             <h1 className="text-center w-full p-8 text-4xl text-primary m-auto">Skills</h1>
             <main className="grid xl:grid-cols-11 max-md:grid-cols-4 md:grid-cols-6 gap-5 ">
@@ -88,5 +89,6 @@ export function SkillPage() {
                 ))}
             </main>
         </div>
+        </section>
     );
 }

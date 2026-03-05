@@ -3,6 +3,7 @@ import Image from "next/image";
 
 export function AboutPage() {
   return (
+    <section id="about">
     <div className="md:py-30 xl:px-50 pt-30 px-5 md:px-20">
         <h1 className="text-center w-full p-8 text-4xl text-primary m-auto">About</h1>
       <main className="grid xl:grid-cols-2 max-xl:gap-5 justify-center m-auto">
@@ -33,5 +34,6 @@ export function AboutPage() {
       
      
     </div>
+    </section>
   );
 }

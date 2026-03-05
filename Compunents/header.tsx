@@ -10,10 +10,10 @@ export function Header() {
       <main className="px-7 py-3 flex">
         <a href="/"><h1 className="text-3xl text-secondary font-bold">Samson Ajayi</h1></a>
         <span className="m-auto max-xl:hidden">
-        <a href="/" className=" px-15 hover:underline hover:text-secondary transition duration-500 text-primary">HOME</a>
-        <a href="/" className=" px-15 hover:underline hover:text-secondary transition duration-500 text-primary">PORTFOLIO</a>
-        <a href="/" className=" px-15 hover:underline hover:text-secondary transition duration-500 text-primary">CONTACT</a>
-        <a href="/" className=" px-15 hover:underline hover:text-secondary transition duration-500 text-primary">ABOUT</a>
+        <a href="#home" className=" px-15 hover:underline hover:text-secondary transition duration-500 text-primary">HOME</a>
+        <a href="#portfolio" className=" px-15 hover:underline hover:text-secondary transition duration-500 text-primary">PORTFOLIO</a>
+        <a href="#contact" className=" px-15 hover:underline hover:text-secondary transition duration-500 text-primary">CONTACT</a>
+        <a href="#about" className=" px-15 hover:underline hover:text-secondary transition duration-500 text-primary">ABOUT</a>
         </span>
         <span className="flex gap-3  ml-auto ">
            <a href="https://github.com/samsonajayi" target="_blank"><p className=" cursor-pointer text-foreground hover:text-secondary"><Github></Github></p></a>
