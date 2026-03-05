@@ -13,7 +13,7 @@ export function Contact(){
                 </div>
                 <div>
                     <p className='p-5'>
-                        <a href="mailto:ajayisamsontobi17@gmail.com target='_blank" >
+                        <a href="mailto:ajayisamsontobi17@gmail.com" target='_blank' >
                             <button className='gap-2 w-full cursor-pointer flex hover:bg-primary border-3 py-2 rounded border-secondary bg-foreground text-background md:w-50 px-2 justify-center'>Send me an email
                             <img width="35" height="35" src="g-mail.png" alt="gmail" className='md:mt-[-3%] mt-[-1%]'/>
                         </button></a>
@@ -27,12 +27,7 @@ export function Contact(){
                     
                 </div>
             </main>
-            <div className='text-center w-full m-10'>coppyright Ajayi Samson 2026
-            </div>
-            <a href="mailto:ajayisamsontobi17@gmail.com" >
-                            <button className='gap-2 w-full cursor-pointer flex hover:bg-primary border-3 py-2 rounded border-secondary bg-foreground text-background md:w-50 px-2 justify-center'>Send me an email
-                            <img width="35" height="35" src="g-mail.png" alt="gmail" className='md:mt-[-3%] mt-[-1%]'/>
-                        </button></a>
+            <div className='text-center w-full m-10'>© copyright Ajayi Samson 2026</div>
         </div>
         </section>
         
