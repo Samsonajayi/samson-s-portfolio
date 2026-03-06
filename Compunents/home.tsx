@@ -11,12 +11,12 @@ export function HomePage() {
         <div className=" space-y-7 w-full">
         <h1 className="text-5xl font-bold">Hi,<br />I'm <span className="text-secondary">Samson</span></h1>
         <span>Fullstack Developer,User Interface Designer</span>
-        <p className="pt-7"><a href="https://linkedin.com/in/samsonajayi17" target="_blank" ><button className="px-4 py-2 bg-secondary rounded cursor-pointer hover:bg-red-500">Contact Me</button></a></p>
+        <p className="pt-7"><a href="https://wa.me/2348138172952" target="_blank" ><button className="px-4 py-2 bg-secondary rounded cursor-pointer hover:bg-red-500">Contact Me</button></a></p>
         </div>
 
         <div className="w-full ">
           <img 
-          src="/test1.jpg"  
+          src="test1.jpg"  
           alt="my-image"  
           className="w-100 shadow-2xl"/>
         </div>

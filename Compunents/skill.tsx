@@ -3,53 +3,53 @@ import { Card, CardContent } from "@/Compunents/ui/card";
 
 const skill= [
     {
-        skillimg:"/c-program.png",
+        skillimg:"c-program.png",
         skill:"C",
         
     },
 
     {
-        skillimg:"/html5.png",
+        skillimg:"html5.png",
         skill:"HTML5",
         
     },
 
     {
-        skillimg:"/java.png",
+        skillimg:"java.png",
         skill:"JAVA",
         
     },
     {
-        skillimg:"/c-sharp.png",
+        skillimg:"c-sharp.png",
         skill:"C#",
         
     },
 
     {
-        skillimg:"/javascript.png",
+        skillimg:"javascript.png",
         skill:"JavaScript",
         
     },
 
     {
-        skillimg:"/c++.png",
+        skillimg:"c++.png",
         skill:"C++",
         
     },
 
     {
-        skillimg:"/react.png",
+        skillimg:"react.png",
         skill:"React",
         
     },
 
     {
-        skillimg:"/tailwind-css.png",
+        skillimg:"tailwind-css.png",
         skill:"Tailwind CSS",
         
     },
      {
-        skillimg:"/typescript.png",
+        skillimg:"typescript.png",
         skill:"Type Script",
         
     },
@@ -61,7 +61,7 @@ const skill= [
     },
 
     {
-        skillimg:"/python.png",
+        skillimg:"python.png",
         skill:"Python",
         
     },
